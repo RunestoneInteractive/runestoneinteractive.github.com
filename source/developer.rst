@@ -30,6 +30,12 @@ You can simply install all dependencies by running the following command in main
 ::
     # pip install -r requirements.txt
 
+Also install Cog:
+
+:: 
+
+    # pip install cogapp
+
 
 If you want to run a full blown server, so you can save ActiveCode assignments, etc. you will need to download and
 install `web2py <http://web2py.com>`_.
@@ -688,6 +694,38 @@ This directive creates a tabbed interface. Each tab can contain one or more of t
 The tabbed directive takes 1 argument, the name of the div containing all the tabbed content. The directive also must be provided one or more tab directives, each taking an argument specifiying the name of the tab.
 
 
+
+Tabbed Question
+---------------
+
+**Example**
+
+Here is an example:
+
+::
+
+    .. tabbed:: tab_div
+
+        .. tab:: Question_1
+            
+            Write a program that prints "Hello, world".
+
+            .. activecode:: ac_example1
+                
+                print("Hello, world")
+
+        .. tab:: Discussion
+    
+            .. disqus::
+                :shortname: interactivepython
+                :identifier: question1discussion            
+
+
+**Description**
+This directive creates a tabbed interface. Each tab can contain one or more of the other directives, question types, or other content. For example, an author could write a question, and provide a tab that has a possible solution as well as a Disqus block so that users could discuss the question. 
+
+**Arguments**
+The tabbed directive takes 1 argument, the name of the div containing all the tabbed content. The directive also must be provided one or more tab directives, each taking an argument specifiying the name of the tab.
 
 .. raw:: html
 
