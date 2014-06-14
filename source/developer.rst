@@ -72,9 +72,22 @@ This project consists of the main repository, plus *submodules* for codelens, pa
     $ git submodule init
     $ git submodule update
 
+
+
 If you are using a GUI git client you may simply get prompted to update the submodules and all will be taken care of for you.  Newer versions of git also support::
 
     $ git clone --recursive https://github.com/bnmnetp/runestone.git
+
+You will also need to pull git tags in order to run Paver in the next few steps:
+
+::
+    $ git pull --tags
+
+If you have forked the master runestone repository (bnmnetp/runestone) and have cloned your fork instead of the master repository, you will still have to fetch the tags from the master repository:
+
+::
+    $ git pull upstream master --tags
+
 
 Configure the Book
 ------------------
