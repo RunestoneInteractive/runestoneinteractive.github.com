@@ -44,6 +44,12 @@ Once paver is installed you will also need to install sphinxcontrib-paverutils, 
 
     # pip install sphinxcontrib-paverutils
 
+Also install Cog:
+
+:: 
+
+    # pip install cogapp
+
 
 If you want to run a full blown server, so you can save ActiveCode assignments, etc. you will need to download and
 install `web2py <http://web2py.com>`_.
