@@ -45,6 +45,7 @@ Within the ``web2py`` folder that was just extracted, go to the ``applications/`
 Cloning The Runestone Project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+::
 
     $ git clone https://github.com/bnmnetp/runestone.git
     $ cd runestone
@@ -94,7 +95,7 @@ line and that will build the following targets:
 
 The books are built into ``runestone/static/thinkcspy``, ``runestone/static/pythonds`` and ``runestone/static/overview``  assuming that runestone is the name of the folder you cloned into.  When the build is done you can quickly check the build by opening the file ``static/thinkcspy/index.html`` in your browser.
 
-Now before you start web2py its convenient to make runestone the default application.  From web2py/examples, copy routes.patterns.example.py to web2py/routes.py and Modify the three lines that contain the word runestone to look like this::
+Now before you start web2py, it's convenient to make runestone the default application.  From web2py/examples, copy routes.patterns.example.py to web2py/routes.py and Modify the three lines that contain the word runestone to look like this::
 
     default_application = 'runestone'    # ordinarily set in base routes.py
     default_controller = 'default'  # ordinarily set in app-specific routes.py
