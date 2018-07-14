@@ -51,7 +51,7 @@ This three step process may seem complicated but it provides a lot of flexibilit
 
 The best thing is, you don't have to write an entire book to take advantage of the interactive tools.  You can use Runestone to make lecture demonstrations, or set up labs or short tutorials for your students.  If you do that you can even host them on your own computer very easily.
 
-Full documentation for all of the Runestone Components can be found at `The Runestone Home <http://runestoneinteractive.org/build/html/directives.html>`_   If you have a suggestion for a new interactive component, or would like to help with the development and documentation of the Runestone Components please visit our page on `Github <https://github.com/RunestoneInteractive/RunestoneComponents>`_. If you would like to help out with any of the books they are all freely available `on github <https://github.com/RunestoneInteractive>`_.
+Full documentation for all of the Runestone Components can be found at `The Runestone Home <http://runestoneinteractive.org/build/html/directives.html>`_   If you have a suggestion for a new interactive component, or would like to help with the development and documentation of the Runestone Components please visit our page on `Github <https://github.com/RunestoneInteractive/RunestoneComponents>`__. If you would like to help out with any of the books they are all freely available `on github <https://github.com/RunestoneInteractive>`__.
 
 The Runestone Server
 --------------------
@@ -62,4 +62,5 @@ However there are a handful of others out there who for whatever reason, privacy
 
 The Runestone Server is built on top of the `web2py <http://web2py.com>`_ application framework.  I know, you've never heard of web2py, why would I do such a thing?  In 2011 it seemed like the right choice.  If I were starting again today it would definitely be a `Flask <http://www.pocoo.org/flask>`_ application.  I still hope to port everything to Flask one day.  But when I think about the opportunity cost of taking an entire summer to port the code versus using the summer to add new features to what is there, I lean heavily towards the new thing.  Eventually all of the bad decisions and shortcuts I've taken over the years will force me to do a rewrite.
 
-If you're still with me, and are interested in helping out with server check out our `Github <https://github.com/RunestoneInteractive/RunestoneServer>`_ page, in particular have a look at the CONTRIBUTING document.
+If you're still with me, and are interested in helping out with server check out our `Github <https://github.com/RunestoneInteractive/RunestoneServer>`__ page, in particular have a look at the CONTRIBUTING document.
+
